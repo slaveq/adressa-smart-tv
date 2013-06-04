@@ -32,10 +32,11 @@ var getMoviesFromPage = function (page){
 		retTable = [];
 	
 		$(".story").each( function (index) {
-			retTable.push( 
-					{ url : $("a", $(this)).attr("href"), 
-					  img : $("img",$(this)).attr("src") 
-			});
+			var obj = { url : $("a", $(this)).attr("href"), 
+				  img : $("img",$(this)).attr("src") 
+			};
+			retTable.push( obj );
+			console.log(JSON.stringify(obj));
 		});
 		
 		return retTable;
@@ -55,20 +56,16 @@ var getSingleMovie = function (page) {
 };
 
 
-var getSite = function(url, callback, before){
+var getSite = function(url, callback, arg){
 	var page = require('webpage').create();
 	var retVal = [];
 	
-	if (before){
-		before(page);
-	}
-
 	page.open(url, function(status) {
 		if('fail' === status){
 			console.log('{ERROR} Loading page ' + url);
 		}else{
 			//console.log('{SUCCESS} Loading page ' + url);
-			retVal = callback(page, arguments);
+			retVal = callback(page, arg);
 		}
 	});
 	
@@ -92,12 +89,13 @@ var getMoviesForCategory = function (catId){
 			getSite('http://www.adressa.no/tv/?categoryId=' + catId + '&pageNo=' + i, function (page){
 				var pageMovies = getMoviesFromPage(page);
 				for (j in pageMovies){
-					getSite(pageMovies[j].url, function(page){
+					getSite(pageMovies[j].url, function(page ,img){
 						var singleMovie = getSingleMovie(page);
-						singleMovie.thumbnail = pageMovies[j].img;
+						singleMovie.thumbnail = img;
+						//console.log(img);
 						console.log(JSON.stringify(singleMovie) + ",");
 						
-					}); //function(page){ page.settings.userAgent = userAgent; });
+					},pageMovies[j].img);
 				};
 			});
 		};

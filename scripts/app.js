@@ -16,5 +16,7 @@ require([
 		window.appRouter = new AppRouter();
 		Backbone.history.start();
 
+		// appRouter.navigate('category/home', {trigger:true});
+
 	});
 });

@@ -69,13 +69,10 @@ define(['stp'], function (STP) {
 					nextLi.children('.thumbnail').addClass('selected');
 				};
 				break;
-			// case 13:
-			// 	STP.log("DOWN");
-			// 	var nextLi = $('.left-menu li.active').next().children('a');
-			// 	if(nextLi) {
-			// 		appRouter.navigate('category/' + nextLi.attr('id'), {trigger:true});
-			// 	}
-			// 	break;
+			case 13:
+				STP.log("ENTER");
+				$('.main-content div.thumbnail.selected').find('a')[0].click();
+				break;
 		}
 		switch(keyCode)
 		{

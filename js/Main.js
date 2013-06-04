@@ -13,26 +13,26 @@ var STP = {
 };
 
 STP.log = function(msg) {
-	if (console.log) {
-		console.log(msg);
-	}
-	else {
-		STP.log(msg);
-	}
+//	if (console) {
+//		console.log(msg);
+//	}
+//	else {
+//		alert(msg);
+//	}
 };
 
 var ListView = Backbone.View.extend({
 	el : '#main',
-	
+
 
 	temp : $('#template'),
-	
+
 	initialize : function(){
 		_.bindAll(this, "render");
 
 		this.render();
 	},
-	
+
 	render : function(){
 		STP.log("RENDER: " + this.temp);
 		var t = _.template(this.temp.html());

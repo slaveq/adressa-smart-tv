@@ -1,0 +1,10 @@
+[
+	{
+		name: "Simple name",
+		url: "www.adressa.no/tv",
+		publication: "02-03-2012 8:58",
+		description: "Blablabla",
+		views: "12",
+		thumbnail: "www.adressa.no/tv/thumb.jpg"
+	}
+]

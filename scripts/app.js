@@ -8,11 +8,12 @@ require.config({
 
 require([
 	'main',
-	'views/list/main'
+	'views/list/main',
+	'router/main'
 ], function(Main, ListMainView) {
 	$(document).ready(function() {
 		Main.onLoad();
-
+		// var appRouter = new AppRouter();
 		var listMainView = new ListMainView();
 	});
 });

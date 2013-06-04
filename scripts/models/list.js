@@ -7,7 +7,7 @@ define([], function () {
 	 * @type {[type]}
 	 */
 	var List = Backbone.Model.extend({
-		urlRoot: 'http://localhost:8000/mocks/',
+		urlRoot: '/mocks/',
         // override backbone synch to force a jsonp call
 		// sync: function (method, model, options) {
 

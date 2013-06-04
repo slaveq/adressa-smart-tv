@@ -1,0 +1,18 @@
+<!-- tableWidget/main.html template -->
+<div class="list-main">
+	<% if (model.movies.length > 0) { %>
+	<ul class="thumbnails">
+		<% _.each(model.movies, function (movie, index) { %>
+		<li class="span3">
+			<div class="thumbnail">
+				<a href="<%= movie.url %>">
+					<img src="<%= movie.thumbnail %>" alt="">
+					<h3><%= movie.name %></h3>
+					<p><%= movie.description %></p>
+				</a>
+			</div>
+		</li>
+		<% }); %>
+	</ul>
+	<% } %>
+</div>

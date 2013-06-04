@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>myFirstApp</title>
+
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+
+
+
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Widget.js"></script>
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/TVKeyValue.js"></script>
+		<script type="text/javascript" language="javascript" src="app/javascript/underscore-min.js"></script>
+		<script type="text/javascript" language="javascript" src="app/javascript/jquery-1.6.1.min.js"></script>
+		<script type="text/javascript" language="javascript" src="app/javascript/backbone-min.js"></script>
+
+
+		<!-- TODO : Style sheets code -->
+		<link rel="stylesheet" href="app/stylesheets/Main.css" type="text/css">
+
+	</head>
+
+	<body>
+
+		<!-- Dummy anchor as focus for key events -->
+		<a href="javascript:void(0);" id="anchor" onkeydown="Main.keyDown();"></a>
+
+		<!-- TODO: your code here -->
+		<div id="main">hello world!!!</div>
+		
+	
+		<script type="text/template" id="template">
+			<div>
+				<%= name %>
+			</div>
+
+		</script>
+	
+		
+		
+		<script language="javascript" type="text/javascript" src="app/javascript/Main.js"></script>
+		
+	</body>
+</html>

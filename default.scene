@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:tv.samsung.sdk="http://www.samsung.com/tvsdk">
+  <tv.samsung.sdk:VisualScene xmi:id="_VGjs8celEeK1nLf-sn_YMw" sId="5i7ocyydepogf" sName="default" sType="2" sBgImage="" sBgClr="#ffffff" sWidth="960" sHeight="540">
+    <sComponents xmi:type="tv.samsung.sdk:VisualCtrlComponent" xmi:id="_3JuQUMelEeK1nLf-sn_YMw" sWidth="130.0" sHeight="40.0" sBgImage="images\Lenovo Jetpack - Original.jpg" sResolution="540" sId="svecImage_5i7ocyykvmagg" sCaption="" sResizeOpt="ResizeOption_Both" sUserCodeIncludeJs="" sUserCodeInit="" sUserCodeDestroy="" sUserLibJs="" sUserLibImgDir="" sUserLibCss="" sType="image" sFunctionName="sfImage" sLockCaption="true">
+      <sCssAttrs xmi:type="tv.samsung.sdk:CssAttrStruct" xmi:id="_3JuQUcelEeK1nLf-sn_YMw" sType="NUMBER" sValue="" sName="left"/>
+      <sCssAttrs xmi:type="tv.samsung.sdk:CssAttrStruct" xmi:id="_3JuQUselEeK1nLf-sn_YMw" sType="NUMBER" sValue="" sName="top"/>
+      <sCssAttrs xmi:type="tv.samsung.sdk:CssAttrStruct" xmi:id="_3JuQU8elEeK1nLf-sn_YMw" sType="NUMBER" sValue="" sName="width"/>
+      <sCssAttrs xmi:type="tv.samsung.sdk:CssAttrStruct" xmi:id="_3JuQVMelEeK1nLf-sn_YMw" sType="NUMBER" sValue="" sName="height"/>
+      <sParams xmi:type="tv.samsung.sdk:ParamStruct" xmi:id="_3JuQVcelEeK1nLf-sn_YMw" sAllowArrayNameChange="true" sNullString="" sName="src" sOrder="-1" sValue="images\\Lenovo Jetpack - Original.jpg"/>
+    </sComponents>
+    <sComponents xmi:type="tv.samsung.sdk:VisualCtrlComponent" xmi:id="_iFU-kMenEeK1nLf-sn_YMw" sWidth="121.0" sHeight="44.0" sBgImage="button/button.png" sResolution="540" sId="svecButton_5i7ocz1oa47gh" sCaption="Test button" sResizeOpt="ResizeOption_Width" sUserCodeIncludeJs="" sUserCodeInit="" sUserCodeDestroy="" sUserLibJs="" sUserLibImgDir="" sUserLibCss="" sType="button" sFunctionName="sfButton" sLockHeight="true" sLockBgImage="true" sNeedResolution="true">
+      <sCssAttrs xmi:type="tv.samsung.sdk:CssAttrStruct" xmi:id="_iFU-kcenEeK1nLf-sn_YMw" sType="NUMBER" sValue="" sName="left"/>
+      <sCssAttrs xmi:type="tv.samsung.sdk:CssAttrStruct" xmi:id="_iFU-ksenEeK1nLf-sn_YMw" sType="NUMBER" sValue="" sName="top"/>
+      <sCssAttrs xmi:type="tv.samsung.sdk:CssAttrStruct" xmi:id="_iFU-k8enEeK1nLf-sn_YMw" sType="NUMBER" sValue="" sName="width"/>
+      <sParams xmi:type="tv.samsung.sdk:ParamStruct" xmi:id="_iFU-lMenEeK1nLf-sn_YMw" sAllowArrayNameChange="true" sNullString="" sName="text" sOrder="-1" sValue="Test button"/>
+    </sComponents>
+  </tv.samsung.sdk:VisualScene>
+  <notation:Diagram xmi:id="_VHNNMMelEeK1nLf-sn_YMw" type="VisualScene" element="_VGjs8celEeK1nLf-sn_YMw" name="default.scene" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_3J0-AMelEeK1nLf-sn_YMw" type="2001" element="_3JuQUMelEeK1nLf-sn_YMw" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_3J4BUMelEeK1nLf-sn_YMw" type="5001"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3J0-AcelEeK1nLf-sn_YMw" width="961" height="541"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_iFXa0MenEeK1nLf-sn_YMw" type="2001" element="_iFU-kMenEeK1nLf-sn_YMw" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_iFYB4MenEeK1nLf-sn_YMw" type="5001"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iFXa0cenEeK1nLf-sn_YMw" x="300" y="220" width="351" height="44"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_VHNNMcelEeK1nLf-sn_YMw"/>
+  </notation:Diagram>
+</xmi:XMI>

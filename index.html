@@ -5,19 +5,8 @@
 		<title>myFirstApp</title>
 
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-
-
-
-		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Widget.js"></script>
-		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/TVKeyValue.js"></script>
-		<script type="text/javascript" language="javascript" src="js/underscore-min.js"></script>
-		<script type="text/javascript" language="javascript" src="js/jquery-1.6.1.min.js"></script>
-		<script type="text/javascript" language="javascript" src="js/backbone-min.js"></script>
-
-
 		<!-- TODO : Style sheets code -->
 		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-		<!-- <link rel="stylesheet" href="css/darkstrap.css" type="text/css"> -->
 		<link rel="stylesheet" href="css/style.css" type="text/css">
 
 	</head>
@@ -34,7 +23,6 @@
 						<li class="nav-header">
 							<img src="images/logo.png" alt="">
 						</li>
-						<!-- <li class="divider"></li> -->
 						<li><a href="#">Home</a></li>
 						<li class="active"><a href="#">Category1</a></li>
 						<li class="selected"><a href="#">Category2</a></li>
@@ -46,63 +34,13 @@
 					</ul>
 				</div>
 				<div class="span9 main-content">
-					<ul class="thumbnails">
-						<!-- <div class="span9" style="background: pink; height: 40px;">
-							<div class="row">
-								<div class="span3" style="background: blue">asdf</div>
-								<div class="span6" style="background: red">asdf</div>
-							</div>
-						</div> -->
-						<li class="span3">
-							<div class="thumbnail">
-								<img src="http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22888&format=6&v=1370269910" alt="">
-								<h3>Thumnail label</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, nemo.</p>
-							</div>
-						</li>
-						<li class="span3">
-							<div class="thumbnail selected">
-								<img src="http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22888&format=6&v=1370269910" alt="">
-								<h3>Thumnail label</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, nemo.</p>
-							</div>
-						</li>
-						<li class="span3">
-							<div class="thumbnail">
-								<img src="http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22888&format=6&v=1370269910" alt="">
-								<h3>Thumnail label</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, possimus.</p>
-							</div>
-						</li>
-						<li class="span3">
-							<div class="thumbnail">
-								<img src="http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22888&format=6&v=1370269910" alt="">
-								<h3>Thumnail label</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, nisi.</p>
-							</div>
-						</li>
-						<li class="span3">
-							<div class="thumbnail">
-								<img src="http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22888&format=6&v=1370269910" alt="">
-								<h3>Thumnail label</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, veniam?</p>
-							</div>
-						</li>
-						<li class="span3">
-							<div class="thumbnail">
-								<img src="http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22888&format=6&v=1370269910" alt="">
-								<h3>Thumnail label</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, at.</p>
-							</div>
-						</li>
-					</ul>
+					
 				</div>
 			</div>
 			<div class="bottom-menu">
 				<span><i class="icon-move icon-white"></i> Move</span>
 				<span><i class="icon-repeat icon-white"></i> Return</span>
 				<span><i class="icon-edit icon-white"></i> Enter</span>
-
 			</div>
 	    </div>
 		
@@ -114,9 +52,13 @@
 
 		</script>
 	
-		
-		
-		<script language="javascript" type="text/javascript" src="js/Main.js"></script>
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Widget.js"></script>
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/TVKeyValue.js"></script>
+		<script type="text/javascript" language="javascript" src="scripts/libs/jquery.js"></script>
+		<script type="text/javascript" language="javascript" src="scripts/libs/underscore.js"></script>
+		<script type="text/javascript" language="javascript" src="scripts/libs/backbone.js"></script>
+
+		<script data-main="scripts/app.js" type="text/javascript" src="scripts/libs/require.js"></script>
 		
 	</body>
 </html>

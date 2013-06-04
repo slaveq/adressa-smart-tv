@@ -1,5 +1,7 @@
 /*global define*/
-define([], function () {
+define([
+	'views/list/main'
+], function (ListMainView) {
 	'use strict';
 
 	/**
@@ -8,7 +10,16 @@ define([], function () {
 	 */
 	var AppRouter = Backbone.Router.extend({
 		routes: {
-            "*actions": "defaultRoute" // matches http://example.com/#anything-here
+            "category/:name": "categoryRoute",
+            "*actions": "defaultRoute",
+        },
+        categoryRoute : function (name) {
+        	var listMainView = new ListMainView({
+        		id : name
+        	});
+        },
+        defaultRoute : function() {
+        	this.categoryRoute('home');
         }
 	});
 

@@ -8,17 +8,13 @@ require.config({
 
 require([
 	'main',
-	'views/list/main',
 	'router/main'
-], function(Main, ListMainView, AppRouter) {
+], function(Main, AppRouter) {
 	$(document).ready(function() {
 		Main.onLoad();
-		// var appRouter = new AppRouter();
-		// appRouter.on('route:defaultRoute', function(actions) {
-		// 	alert(actions);
-		// })
-		var listMainView = new ListMainView();
 
+		var appRouter = new AppRouter();
 		Backbone.history.start();
+
 	});
 });

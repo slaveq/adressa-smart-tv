@@ -12,7 +12,7 @@ define([
         	var that = this;
 
     		this.model = new ListModel({
-    			id : 'sport'
+    			id : (this.options.id ? this.options.id : home)
     		});
 
     		this.model.fetch().done(function(){
@@ -25,7 +25,7 @@ define([
         render: function () {
 			// compiledTemplate with data, we pass to it this.model (Team model)
 			// console.log(this.model.toJSON());
-			console.log(this.model.toJSON());
+			// console.log(this.model.toJSON());
 			var compiledTemplate = _.template(listMainTemplate, {
 				'model' : this.model.toJSON()
 			});

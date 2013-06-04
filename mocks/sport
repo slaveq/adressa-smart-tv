@@ -1,36 +1,28 @@
-{
-	"movies" : [
-		{
-			"name": "Sport movie 1",
-			"url": "www.adressa.no/tv",
-			"publication": "02-03-2012 8:58",
-			"description": "Blablabla",
-			"views": "12",
-			"thumbnail": "http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22888&format=6&v=1370269910"
-		},
-		{
-			"name": "Sport movie 2",
-			"url": "www.adressa.no/tv",
-			"publication": "02-03-2012 8:58",
-			"description": "Blablabla",
-			"views": "12",
-			"thumbnail": "http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22888&format=6&v=1370269910"
-		},
-		{
-			"name": "Sport movie 3",
-			"url": "www.adressa.no/tv",
-			"publication": "02-03-2012 8:58",
-			"description": "Blablabla",
-			"views": "12",
-			"thumbnail": "http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22888&format=6&v=1370269910"
-		},
-		{
-			"name": "Sport movie 4",
-			"url": "www.adressa.no/tv",
-			"publication": "02-03-2012 8:58",
-			"description": "Blablabla",
-			"views": "12",
-			"thumbnail": "http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22888&format=6&v=1370269910"
-		}
-	]
-}
+{ "movies" : [
+{"category":"Sport","description":"Vektløfteren Jan Nystrøm fra Trondheim tok sølv i Tyrkia.","publication":"28.05.2013 kl. 15:48","title":"- Kom nånn ungdomma sjø","url":"http://frontend.xstream.dk/adressatv/resources/content/mp4/2013-06/1370344019064328200-iPad_1400kbit_96_852x480.mp4","thumbnail":"http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22728&format=2&v=1368797573"},
+{"category":"Sport","description":"Hanna Larsson viser deg øvelser som hjelper deg å holde løpeskadene unna.","publication":"21.05.2013 kl. 20:48","title":"Sprek: løpeskader","url":"http://frontend.xstream.dk/adressatv/resources/content/mp4/2013-06/1370344019064328200-iPad_1400kbit_96_852x480.mp4","thumbnail":"http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22728&format=2&v=1368797573"},
+{"category":"Sport","description":"Petter Northug jr. om hvordan det blir å samarbeide med Coop framover.","publication":"22.05.2013 kl. 21:01","title":"- Kanskje jeg blir selger her","url":"http://frontend.xstream.dk/adressatv/resources/content/mp4/2013-06/1370344019064328200-iPad_1400kbit_96_852x480.mp4","thumbnail":"http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22728&format=2&v=1368797573"},
+{"category":"Sport","description":"Se intervju med Ole Gunnar Solskjær etter RBK - Molde.","publication":"20.05.2013 kl. 21:00","title":"- Rødkortet var i strengeste laget","url":"http://frontend.xstream.dk/adressatv/resources/content/mp4/2013-06/1370344019064328200-iPad_1400kbit_96_852x480.mp4","thumbnail":"http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22728&format=2&v=1368797573"},
+{"category":"Sport","description":"Tremålsscorer Nicki Bille Nielsen var meget fornøyd etter seieren mot Sarpsborg.","publication":"16.05.2013 kl. 22:10","title":"- Det var fest på stadion","url":"http://frontend.xstream.dk/adressatv/resources/content/mp4/2013-06/1370344019064328200-iPad_1400kbit_96_852x480.mp4","thumbnail":"http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22728&format=2&v=1368797573"},
+{"category":"Nyheter","description":"Trondhjems Studentersangforening vekket NTNU-rektor Torbjørn Digernes. Leservideo","publication":"17.05.2013 kl. 15:32","title":"Vekket rektor","url":"http://frontend.xstream.dk/adressatv/resources/content/mp4/2013-06/1370344019064328200-iPad_1400kbit_96_852x480.mp4","thumbnail":"http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22728&format=2&v=1368797573"},
+{"category":"Sport","description":"Hør hva Petter sa på pressekonferansen til Coop på Lade.","publication":"22.05.2013 kl. 15:55","title":"- Motiverende for meg","url":"http://frontend.xstream.dk/adressatv/resources/content/mp4/2013-06/1370344019064328200-iPad_1400kbit_96_852x480.mp4","thumbnail":"http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22728&format=2&v=1368797573"},
+{"category":"Sport","description":"Nicki Bille Nielsen er glad \"Maradona-målet\" ikke ble godkjent.","publication":"20.05.2013 kl. 20:58","title":"- Handsen var ren refleks","url":"http://frontend.xstream.dk/adressatv/resources/content/mp4/2013-06/1370344019064328200-iPad_1400kbit_96_852x480.mp4","thumbnail":"http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22728&format=2&v=1368797573"},
+{"category":"Sport","description":"Dagen etter å ha slått ut Aalesund fra cupen hadde Ranheim-spillerne en ganske annerledes treningsøkt.","publication":"30.05.2013 kl. 22:34","title":"Her går Ranheim-spillerne i vannet","url":"http://frontend.xstream.dk/adressatv/resources/content/mp4/2013-06/1370344019064328200-iPad_1400kbit_96_852x480.mp4","thumbnail":"http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22728&format=2&v=1368797573"},
+{"category":"Sport","description":"Forsvarsspilleren mente seg snytt for frispark før Sarpsborgs scoring.","publication":"16.05.2013 kl. 21:44","title":"Strandberg raste mot linjedommeren","url":"http://frontend.xstream.dk/adressatv/resources/content/mp4/2013-06/1370344019064328200-iPad_1400kbit_96_852x480.mp4","thumbnail":"http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22728&format=2&v=1368797573"},
+{"category":"Sport","description":"Del 2. Vebjørn Rodal viser styrke- og spenstøvelsene du bør gjøre hele året, om du vil ha bedre løpeteknikk.","publication":"21.05.2013 kl. 20:22","title":"Sprek: styrke og spenst","url":"http://frontend.xstream.dk/adressatv/resources/content/mp4/2013-06/1370344019064328200-iPad_1400kbit_96_852x480.mp4","thumbnail":"http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22728&format=2&v=1368797573"},
+{"category":"Sport","description":"Orkla spilte uavgjort 2-2 mot Stjørdals Blink søndag. Foto: Rune Petter Ness","publication":"02.06.2013 kl. 21:14","title":"Uavgjort for Eggen og Orkla","url":"http://frontend.xstream.dk/adressatv/resources/content/mp4/2013-06/1370344019064328200-iPad_1400kbit_96_852x480.mp4","thumbnail":"http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22728&format=2&v=1368797573"},
+{"category":"Sport","description":"Del 1. Slik får du effektiv løpeteknikk. Sprek-ekspert Vebjørn Rodal viser deg hvordan.","publication":"21.05.2013 kl. 18:45","title":"Sprek: løpeteknikk","url":"http://frontend.xstream.dk/adressatv/resources/content/mp4/2013-06/1370344019064328200-iPad_1400kbit_96_852x480.mp4","thumbnail":"http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22728&format=2&v=1368797573"},
+{"category":"Sport","description":"Per Joar Hansen synes RBK-spillerne brukte for mange touch og hadde dårlig tempo i Molde-kampen.","publication":"20.05.2013 kl. 20:58","title":"- Vi manglet energi i dag","url":"http://frontend.xstream.dk/adressatv/resources/content/mp4/2013-06/1370344019064328200-iPad_1400kbit_96_852x480.mp4","thumbnail":"http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22728&format=2&v=1368797573"},
+{"category":"Sport","description":"Når RBK-spillerne tar ferie etter cupkampen mot Levanger neste onsdag, reiser Stefan Strandberg til Israel for å delta i U-EM. Det blir hans fotball-ferie. Men først reiser RBK og Strandberg til Oslo for å spille seriekamp mot Vålerenga. SE RBK-MAGASINET.","publication":"24.05.2013 kl. 08:54","title":"RBK-magasinet: Før Vålerenga","url":"http://frontend.xstream.dk/adressatv/resources/content/mp4/2013-06/1370344019064328200-iPad_1400kbit_96_852x480.mp4","thumbnail":"http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22728&format=2&v=1368797573"},
+{"category":"Sport","description":"Keeper Alexander Lund Hansen med gigantisk tabbe. Var overlykkelig etter RBKs to siste scoringer.","publication":"16.05.2013 kl. 22:13","title":"- Følte meg som verdens største idiot","url":"http://frontend.xstream.dk/adressatv/resources/content/mp4/2013-06/1370344019064328200-iPad_1400kbit_96_852x480.mp4","thumbnail":"http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22728&format=2&v=1368797573"},
+{"category":"Sport","description":"Trener Per Joar Hansen tror deltakelsen i 17.mai-toget på fredag blir lystbetont.","publication":"16.05.2013 kl. 22:30","title":"- Som en trøndersk \"bonfæst\"","url":"http://frontend.xstream.dk/adressatv/resources/content/mp4/2013-06/1370344019064328200-iPad_1400kbit_96_852x480.mp4","thumbnail":"http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22728&format=2&v=1368797573"},
+{"category":"Sport","description":"Niklas Dyrhaug fortalte om sitt fotballtalent i RBK-magasinet live. Se opptak av sendingen før RBK - Molde her.","publication":"20.05.2013 kl. 21:02","title":"- Byttet fra fotball til idrett","url":"http://frontend.xstream.dk/adressatv/resources/content/mp4/2013-06/1370344019064328200-iPad_1400kbit_96_852x480.mp4","thumbnail":"http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22728&format=2&v=1368797573"},
+{"category":"Sport","description":"Daniel Fredheim Holm tror det blir enklere å spille mot RBK med Strandberg på banen.","publication":"24.05.2013 kl. 16:21","title":"- Skal han spille?","url":"http://frontend.xstream.dk/adressatv/resources/content/mp4/2013-06/1370344019064328200-iPad_1400kbit_96_852x480.mp4","thumbnail":"http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22728&format=2&v=1368797573"},
+{"category":"Sport","description":"Men Ole Selnæs mener likevel at Sarpsborg var sjanseløse på poeng mot Rosenborg.","publication":"16.05.2013 kl. 21:56","title":"Selnæs: - De er ikke et dårlig lag","url":"http://frontend.xstream.dk/adressatv/resources/content/mp4/2013-06/1370344019064328200-iPad_1400kbit_96_852x480.mp4","thumbnail":"http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22728&format=2&v=1368797573"},
+{"category":"Sport","description":"- Skönt å trykke Molde lenger ned i skiten, sier Micke Dorsin.","publication":"18.05.2013 kl. 18:38","title":"Årets hatkamp","url":"http://frontend.xstream.dk/adressatv/resources/content/mp4/2013-06/1370344019064328200-iPad_1400kbit_96_852x480.mp4","thumbnail":"http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22728&format=2&v=1368797573"},
+{"category":"Sport","description":"Levanger-trener Andreas Holmberg lover fjellstø mål mot RBK i morgen.","publication":"28.05.2013 kl. 14:38","title":"Nå står målet støtt!","url":"http://frontend.xstream.dk/adressatv/resources/content/mp4/2013-06/1370344019064328200-iPad_1400kbit_96_852x480.mp4","thumbnail":"http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22728&format=2&v=1368797573"},
+{"category":"Sport","description":"Hør hva Rune Bratseth sier om den kommende finalen i Champions League.","publication":"24.05.2013 kl. 08:57","title":"Rune Bratseth om mesterligafinalen","url":"http://frontend.xstream.dk/adressatv/resources/content/mp4/2013-06/1370344019064328200-iPad_1400kbit_96_852x480.mp4","thumbnail":"http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22728&format=2&v=1368797573"},
+{"category":"Sport","description":"Rade Prica var tilbake på Lerkendal til RBK - Molde.Se opptak av RBK-magasinet live før kampen her.","publication":"20.05.2013 kl. 21:01","title":"- Stor forskjell å spille i Israel","url":"http://frontend.xstream.dk/adressatv/resources/content/mp4/2013-06/1370344019064328200-iPad_1400kbit_96_852x480.mp4","thumbnail":"http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22728&format=2&v=1368797573"},
+{"category":"Sport","description":"Kaptein Christian Brink syns tapet mot RBK var bittert etter lagets opphenting i andreomgangen.","publication":"16.05.2013 kl. 22:30","title":"Sarpsborg hadde trua","url":"http://frontend.xstream.dk/adressatv/resources/content/mp4/2013-06/1370344019064328200-iPad_1400kbit_96_852x480.mp4","thumbnail":"http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22728&format=2&v=1368797573"},
+{"category":"Nyheter","description":"Mosvik møter Astor","publication":"28.05.2013 kl. 21:46","title":"Petter Northug og Roar Strand i aksjon på Havstein","url":"http://frontend.xstream.dk/adressatv/resources/content/mp4/2013-06/1370344019064328200-iPad_1400kbit_96_852x480.mp4","thumbnail":"http://frontend.xstream.dk/adressatv/image/thumbnail/?id=22728&format=2&v=1368797573"}
+]}

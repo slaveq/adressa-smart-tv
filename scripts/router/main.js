@@ -11,7 +11,7 @@ define([
 	var AppRouter = Backbone.Router.extend({
 		routes: {
             "category/:name": "categoryRoute",
-            "*actions": "defaultRoute",
+            "*actions": "defaultRoute"
         },
         categoryRoute : function (name) {
         	var listMainView = new ListMainView({
@@ -19,7 +19,7 @@ define([
         	});
         },
         defaultRoute : function() {
-        	this.categoryRoute('home');
+        	this.navigate('category/home', {trigger : true});
         }
 	});
 

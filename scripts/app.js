@@ -13,8 +13,10 @@ require([
 	$(document).ready(function() {
 		Main.onLoad();
 
-		var appRouter = new AppRouter();
+		window.appRouter = new AppRouter();
 		Backbone.history.start();
+
+		// appRouter.navigate('category/home', {trigger:true});
 
 	});
 });

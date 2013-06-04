@@ -16,6 +16,11 @@ define([
     		});
 
     		this.model.fetch().done(function(){
+
+    			$('.left-menu li.active').removeClass();
+    			$('.left-menu a[href="#category/' + that.model.id + '"]').parent().addClass('active');
+
+    			
     			that.render();
     		}).fail(function(){
     			// todo

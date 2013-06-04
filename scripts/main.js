@@ -115,6 +115,7 @@ define(['stp'], function (STP) {
 			case tvKey.KEY_ENTER:
 			case tvKey.KEY_PANEL_ENTER:
 				STP.log("ENTER");
+				$('.main-content div.thumbnail.selected').find('a')[0].click();
 				break;
 			case 262: 
 				STP.log("MENU");

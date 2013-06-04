@@ -12,7 +12,7 @@ define(['stp'], function (STP) {
 	catch (e) {
 		
 	}
-	var Main =
+	window.Main =
 	{
 
 	};
@@ -54,9 +54,11 @@ define(['stp'], function (STP) {
 				break;
 			case tvKey.KEY_UP:
 				STP.log("UP");
+				appRouter.navigate('category/home', {trigger:true});
 				break;
 			case tvKey.KEY_DOWN:
 				STP.log("DOWN");
+				appRouter.navigate('category/sport', {trigger:true});
 				break;
 			case tvKey.KEY_ENTER:
 			case tvKey.KEY_PANEL_ENTER:

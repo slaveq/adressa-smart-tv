@@ -13,29 +13,7 @@ module.exports = function(grunt) {
                 }
             }
         },
-//        concat: {
-//            options: {
-//                separator: ';'
-//            },
-//            dist: {
-//                src: ['js/**/*.js'],
-//                dest: 'build/<%= pkg.name %>.js'
-//            },
-//            css: {
-//                src: 'css/*.css',
-//                dest: 'build/style.css'
-//            }
-//        },
-//        uglify: {
-//            options: {
-//                banner: '/*! <%= pkg.name %> <%= grunt.template.today("dd-mm-yyyy") %> */\n'
-//            },
-//            dist: {
-//                files: {
-//                    'build/<%= pkg.name %>.min.js': ['<%= concat.dist.dest %>']
-//                }
-//            }
-//        },
+
         copy: {
             main: {
                 files: [

@@ -6,12 +6,12 @@ define([], function () {
 	};
 
 	STP.log = function(msg) {
-		if (console.log) {
-			console.log(msg);
-		}
-		else {
-			alert(msg);
-		}
+//		if (console.log) {
+//			console.log(msg);
+//		}
+//		else {
+//			alert(msg);
+//		}
 	};
 
 
